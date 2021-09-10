@@ -86,6 +86,7 @@ main section li {
 footer {
     color: var(--base1);
     font-size: small;
+    text-align: center;
 }
 a {
     color: var(--blue);
