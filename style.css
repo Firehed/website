@@ -73,6 +73,8 @@ main section {
     flex: 1;
 }
 main section h2 {
+    font-weight: 400;
+    font-size: 1.3em;
     text-align: center;
 }
 main section ul {
