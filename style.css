@@ -42,13 +42,22 @@ html {
 body {
     background-color: var(--base03);
     color: var(--base1);
+    margin: 24px;
+}
+/** Center main body */
+body > * {
+    max-width: 900px;
+    margin: 0 auto;
 }
 h1 {
     color: var(--yellow);
+    font-weight: 400;
+    font-variant: small-caps;
+    text-align: center;
 }
 li {
     list-style-type: none;
-    padding-bottom: 8px;
+    line-height: 2;
 }
 main {
     display: flex;
@@ -64,6 +73,8 @@ main section {
     flex: 1;
 }
 main section h2 {
+    font-weight: 400;
+    font-size: 1.3em;
     text-align: center;
 }
 main section ul {
@@ -75,6 +86,7 @@ main section li {
 footer {
     color: var(--base1);
     font-size: small;
+    text-align: center;
 }
 a {
     color: var(--blue);
