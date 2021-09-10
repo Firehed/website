@@ -57,7 +57,7 @@ h1 {
 }
 li {
     list-style-type: none;
-    padding-bottom: 8px;
+    line-height: 2;
 }
 main {
     display: flex;
