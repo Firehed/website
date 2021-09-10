@@ -44,6 +44,11 @@ body {
     color: var(--base1);
     margin: 24px;
 }
+/** Center main body */
+body > * {
+    max-width: 900px;
+    margin: 0 auto;
+}
 h1 {
     color: var(--yellow);
     font-weight: 400;
