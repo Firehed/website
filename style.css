@@ -59,6 +59,9 @@ li {
     list-style-type: none;
     line-height: 2;
 }
+li > ul {
+    margin-left: 8px;
+}
 main {
     display: flex;
     flex-direction: row;
